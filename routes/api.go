@@ -15,6 +15,7 @@ func RegisterAPIRoutes(r *gin.Engine) {
 			succ := new(auth.SignupController)
 			//check phone if exist
 			authGroup.POST("/signup/phone/exist", succ.IsPhoneExist)
+			authGroup.POST("/signup/email/exist", succ.IsEmailExist)
 		}
 		//注册一个路由
 		v1.GET("/", func(c *gin.Context) {
