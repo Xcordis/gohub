@@ -1,4 +1,4 @@
-package v1 // 处理用户身份认证相关逻辑
+package auth // 处理用户身份认证相关逻辑
 import (
 	"github.com/gin-gonic/gin"
 	v1 "gohub/app/http/controllers/api/v1"
