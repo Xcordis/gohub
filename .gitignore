@@ -81,3 +81,7 @@ __debug_bin
 ######################
 .sass-cache/*
 node_modules/
+
+## go
+go.mod
+go.sum
